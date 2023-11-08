@@ -1,0 +1,15 @@
+ORIG_PN=flit_core
+inherit python-wheel
+
+NAME=python-flit-core
+VERSION=3.9.0
+RELEASE=1
+CATEGORY=Python
+SUMMARY='PIP 517 build backend for packages using python-flit'
+DESCRIPTION='Flit is a simple way to put Python packages and modules on PyPI.
+flit_core.buildapi provides a PEP 517 build backend for packages using
+python-flit.'
+HOMEPAGE=https://flit.pypa.io
+LICENSE=BSD-3-Clause
+
+ARCH=noarch
